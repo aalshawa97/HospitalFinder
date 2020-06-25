@@ -45,6 +45,11 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         val providenceBridgeport = LatLng(45.39,-122.75)
         //val locationType: nt = GooglePlacesApi.TYPE_HOSPITAL
         mMap.addMarker(MarkerOptions().position(providenceBridgeport).title("Providence Bridgeport"))
+
+        val providenceSeaside= LatLng(45.99,-123.91)
+        //val locationType: nt = GooglePlacesApi.TYPE_HOSPITAL
+        mMap.addMarker(MarkerOptions().position(providenceBridgeport).title("Providence Seaside"))
+
 //        val providenceMercantile = LatLng(45.42,-122.73)
 //        //val locationType: nt = GooglePlacesApi.TYPE_HOSPITAL
 //        mMap.addMarker(MarkerOptions().position(providenceMercantile).title("Providence Mercantile"))
