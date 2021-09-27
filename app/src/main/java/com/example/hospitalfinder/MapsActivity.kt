@@ -1,4 +1,4 @@
-
+package com.example.hospitalfinder
 import android.app.SearchManager
 import android.content.Intent
 import android.os.Bundle
